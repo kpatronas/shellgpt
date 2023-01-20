@@ -82,7 +82,7 @@ curl https://api.openai.com/v1/completions \
 EOS`
 
 result=`eval ${curl}`
-#exit_code=$?
+exit_code=$?
 
 if [ $exit_code -ne 0 ]; then
     cat /tmp/chatgpt_err
