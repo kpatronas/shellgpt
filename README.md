@@ -48,3 +48,10 @@ The cd command is used to change the current working directory in a command line
 The mv command is used to move or rename files and directories. For example, if you wanted to move a file named \"example.txt\" from the current directory to a directory named \"Documents\", you would use the following command:
 mv example.txt Documents/
 ```
+Example: generate command and execute it
+```
+chatgpt -p "Create a bash command that will print current date minus one month"
+date --date=\"1 month ago\"
+$ chatgpt -p "Create a bash command that will print current date minus one month" | xargs -I {} bash -c '{}'
+Tue Dec 20 20:09:42 EET 2022
+```
