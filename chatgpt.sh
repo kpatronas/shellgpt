@@ -88,6 +88,6 @@ if [ $exit_code -ne 0 ]; then
     cat /tmp/chatgpt_err
     exit $exit_code
 else
-    echo ${result} | sed '$ s/.$//'
+    printf ${result}"\n" | sed '$ s/.$//'
 fi
 exit 0
