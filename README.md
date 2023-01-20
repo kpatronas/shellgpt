@@ -46,6 +46,5 @@ The ls command is a command line utility used to list the contents of a director
 The cd command is used to change the current working directory in a command line interface. For example, if you are in the directory /home/user/Documents and you want to change to the directory /home/user/Pictures, you can use the command cd /home/user/Pictures. This will change the current working directory to /home/user/Pictures.
 
 The mv command is used to move or rename files and directories. For example, if you wanted to move a file named \"example.txt\" from the current directory to a directory named \"Documents\", you would use the following command:
-
 mv example.txt Documents/
 ```
