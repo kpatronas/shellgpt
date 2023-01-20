@@ -1,0 +1,4 @@
+MODEL="text-davinci-003"
+TEMPERATURE="0"
+MAX_TOKEN=4000
+BEARER=""
