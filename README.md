@@ -27,8 +27,19 @@ BEARER=""
 ```
 
 # How to use shellgpt
-Example
+
+Example: simple output
 ```
-$ chatgpt -p "What is the 3 most used linux commands, print them in a list comma separated, with no other description"
-ls, cd, mv
+$ chatgpt -p "print the 3 most used linux commands, new-line separated"
+ls
+cd
+mv
+```
+
+Example: pipe output
+```
+$ chatgpt -p "print the 3 most used linux commands, new-line separated"
+ls
+cd
+mv
 ```
