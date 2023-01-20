@@ -6,7 +6,7 @@ Query chatgpt from your shell
 Copy script to a path dir and make it executable
 
 ```
-sudo cp ./chatgpt.sh /usr/bin/
+sudo cp ./chatgpt.sh /usr/bin/chatgpt
 sudo chmod +x /usr/bin/chatgpt
 ```
 
