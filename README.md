@@ -6,6 +6,7 @@ Query chatgpt from your shell
 Copy script to a path dir and make it executable
 
 ```
+cd shellgpt
 sudo cp ./chatgpt.sh /usr/bin/chatgpt
 sudo chmod +x /usr/bin/chatgpt
 ```
@@ -14,10 +15,12 @@ Create path for the chatgpt config file and copy it in
 
 ```
 mkdir ~/.chatgtp/
-cp ./chatgpt ~/.chatgtp/
+cp ./chatgpt ~/.chatgpt/
 ```
 
 Then edit file to match your config
+
+BEARER expects your API Token that you can create at https://beta.openai.com/account/api-keys
 
 ```
 MODEL="text-davinci-003"
