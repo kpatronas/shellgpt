@@ -6,6 +6,7 @@ Query chatgpt from your shell
 Copy script to a path dir and make it executable
 
 ```
+git clone https://github.com/kpatronas/shellgpt.git
 cd shellgpt
 sudo cp ./chatgpt.sh /usr/bin/chatgpt
 sudo chmod +x /usr/bin/chatgpt
@@ -14,7 +15,7 @@ sudo chmod +x /usr/bin/chatgpt
 Create path for the chatgpt config file and copy it in
 
 ```
-mkdir ~/.chatgtp/
+mkdir ~/.chatgpt/
 cp ./chatgpt ~/.chatgpt/
 ```
 
