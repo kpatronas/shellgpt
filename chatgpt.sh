@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.chatgpt/chatgpt
+source ~/.config/shellgpt/config
 
 #MODEL="text-davinci-003"
 #TEMPERATURE="0"
