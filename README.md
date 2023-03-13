@@ -8,15 +8,15 @@ Copy script to a path dir and make it executable
 ```
 git clone https://github.com/kpatronas/shellgpt.git
 cd shellgpt
-sudo cp ./chatgpt.sh /usr/bin/chatgpt
-sudo chmod +x /usr/bin/chatgpt
+sudo cp ./chatgpt.sh /usr/local/bin/chatgpt
+sudo chmod +x /usr/local/bin/chatgpt
 ```
 
 Create path for the chatgpt config file and copy it in
 
 ```
-mkdir ~/.chatgpt/
-cp ./chatgpt ~/.chatgpt/
+mkdir -p ~/.config/shellgpt/
+cp ./config ~/.config/shellgpt/
 ```
 
 Then edit file to match your config
